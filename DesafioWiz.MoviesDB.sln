@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioWiz.MoviesDB.Domain"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioWiz.MoviesDB.API", "DesafioWiz.MoviesDB.API\DesafioWiz.MoviesDB.API.csproj", "{54C7C2B9-859A-417C-AD2D-47309FCDDBE4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{83712414-2106-42C2-97E9-6AB1BF5AA0CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioWiz.MoviesDB.Repository", "DesafioWiz.MoviesDB.Repository\DesafioWiz.MoviesDB.Repository.csproj", "{B24A1D72-7F0C-4CB7-93DB-CB8657B27F5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{54C7C2B9-859A-417C-AD2D-47309FCDDBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54C7C2B9-859A-417C-AD2D-47309FCDDBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54C7C2B9-859A-417C-AD2D-47309FCDDBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24A1D72-7F0C-4CB7-93DB-CB8657B27F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24A1D72-7F0C-4CB7-93DB-CB8657B27F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24A1D72-7F0C-4CB7-93DB-CB8657B27F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24A1D72-7F0C-4CB7-93DB-CB8657B27F5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{38D02358-86BC-4499-A563-EA11D539B603} = {66DA6654-41FA-431C-9464-70F9CDE0A004}
 		{EC09E6F4-2A8D-4B2A-8E62-486B4F84D44A} = {F3FE841B-AC48-484D-88FA-00AE978C2220}
 		{54C7C2B9-859A-417C-AD2D-47309FCDDBE4} = {04A0B302-8C73-443C-805E-019BE498A92D}
+		{B24A1D72-7F0C-4CB7-93DB-CB8657B27F5B} = {83712414-2106-42C2-97E9-6AB1BF5AA0CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A3F3675-461A-44B1-81F7-CBE9DD52947F}

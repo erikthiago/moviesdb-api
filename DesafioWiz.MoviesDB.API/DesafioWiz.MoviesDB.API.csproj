@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DesafioWiz.MoviesDB.Common\DesafioWiz.MoviesDB.Common.csproj" />
     <ProjectReference Include="..\DesafioWiz.MoviesDB.Domain\DesafioWiz.MoviesDB.Domain.csproj" />
+    <ProjectReference Include="..\DesafioWiz.MoviesDB.Repository\DesafioWiz.MoviesDB.Repository.csproj" />
   </ItemGroup>
 
 </Project>
