@@ -3,9 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{04A0B302-8C73-443C-805E-019BE498A92D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F3FE841B-AC48-484D-88FA-00AE978C2220}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{66DA6654-41FA-431C-9464-70F9CDE0A004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioWiz.MoviesDB.Common", "DesafioWiz.MoviesDB.Common\DesafioWiz.MoviesDB.Common.csproj", "{38D02358-86BC-4499-A563-EA11D539B603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioWiz.MoviesDB.Domain", "DesafioWiz.MoviesDB.Domain\DesafioWiz.MoviesDB.Domain.csproj", "{EC09E6F4-2A8D-4B2A-8E62-486B4F84D44A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioWiz.MoviesDB.API", "DesafioWiz.MoviesDB.API\DesafioWiz.MoviesDB.API.csproj", "{54C7C2B9-859A-417C-AD2D-47309FCDDBE4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38D02358-86BC-4499-A563-EA11D539B603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D02358-86BC-4499-A563-EA11D539B603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D02358-86BC-4499-A563-EA11D539B603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D02358-86BC-4499-A563-EA11D539B603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC09E6F4-2A8D-4B2A-8E62-486B4F84D44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC09E6F4-2A8D-4B2A-8E62-486B4F84D44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC09E6F4-2A8D-4B2A-8E62-486B4F84D44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC09E6F4-2A8D-4B2A-8E62-486B4F84D44A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C7C2B9-859A-417C-AD2D-47309FCDDBE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C7C2B9-859A-417C-AD2D-47309FCDDBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C7C2B9-859A-417C-AD2D-47309FCDDBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C7C2B9-859A-417C-AD2D-47309FCDDBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38D02358-86BC-4499-A563-EA11D539B603} = {66DA6654-41FA-431C-9464-70F9CDE0A004}
+		{EC09E6F4-2A8D-4B2A-8E62-486B4F84D44A} = {F3FE841B-AC48-484D-88FA-00AE978C2220}
+		{54C7C2B9-859A-417C-AD2D-47309FCDDBE4} = {04A0B302-8C73-443C-805E-019BE498A92D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A3F3675-461A-44B1-81F7-CBE9DD52947F}
