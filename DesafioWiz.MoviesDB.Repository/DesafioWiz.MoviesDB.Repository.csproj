@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NetCore.AutoRegisterDi" Version="1.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesafioWiz.MoviesDB.Common\DesafioWiz.MoviesDB.Common.csproj" />
+    <ProjectReference Include="..\DesafioWiz.MoviesDB.Domain\DesafioWiz.MoviesDB.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
